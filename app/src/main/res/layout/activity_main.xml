@@ -52,7 +52,7 @@
             android:id="@+id/textEredmeny"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eredmeny: 0-0"
+            android:text="Eredmeny: Játékos 0 - Gép 0"
             android:textAlignment="center"
             android:textSize="20dp" />
         <Button

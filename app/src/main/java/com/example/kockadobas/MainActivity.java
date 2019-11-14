@@ -80,10 +80,10 @@ public class MainActivity extends AppCompatActivity {
     private void pontszamKiosztas(){
         if (jatekosSzam>gepSzam){
             jatekosPontszam++;
-            pontszam.setText("Eredmeny:"+jatekosPontszam+"-"+gepPontszam);
+            pontszam.setText("Eredmeny: Játékos "+jatekosPontszam+" - Gép "+gepPontszam);
         }else if (gepSzam>jatekosSzam){
             gepPontszam++;
-            pontszam.setText("Eredmeny:"+jatekosPontszam+"-"+gepPontszam);
+            pontszam.setText("Eredmeny: Játékos "+jatekosPontszam+" - Gép "+gepPontszam);
         }
     }
     private void reStart(){
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         jatekosPontszam=0;
         gepSzam=0;
         gepPontszam=0;
-        pontszam.setText("Eredmeny:"+jatekosPontszam+"-"+gepPontszam);
+        pontszam.setText("Eredmeny: Játékos "+jatekosPontszam+" - Gép "+gepPontszam);
         kockaJatekos.setImageResource(R.drawable.kocka1);
         kockaGep.setImageResource(R.drawable.kocka1);
 
